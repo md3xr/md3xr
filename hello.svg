@@ -26,12 +26,10 @@
 				  font-weight: 900;
 				  letter-spacing: -.05em;
 				  text-align: center;
-				  background: linear-gradient(90deg, #00BFFF, #FF69B4, #00BFFF);
-				  background-size: 200%;
-				  background-clip: text;
-				  -webkit-background-clip: text;
-				  -webkit-text-fill-color: transparent;
-				  animation: gradientText 3s ease-in-out infinite;
+				  color: #333;
+				  background: none;
+				  -webkit-text-fill-color: initial;
+				  animation: none;
 				}
         @media (prefers-reduced-motion: reduce) {
           h1 {
