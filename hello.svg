@@ -29,11 +29,23 @@
 				  color: #333;
 				  background: none;
 				  -webkit-text-fill-color: initial;
-				  animation: none;
+				  animation: typing 4s steps(30, end) infinite;
+				  white-space: nowrap;
+				  overflow: hidden;
+				  border-right: 3px solid #333;
+				  width: 0;
+				}
+				@keyframes typing {
+				  0% { width: 0 }
+				  50% { width: 100% }
+				  90% { width: 100% }
+				  100% { width: 0 }
 				}
         @media (prefers-reduced-motion: reduce) {
           h1 {
             animation: none;
+            width: auto;
+            border-right: none;
           }
         }
 			</style>
